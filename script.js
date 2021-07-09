@@ -5,7 +5,7 @@ const formElm = document.getElementById('form');
 const searchElm = document.getElementById('search');
 
 // test
-getUser('florinpop17');
+// getUser('cordelia-sixth');
 
 async function getUser(userName) {
   const resp = await fetch(API_URL + userName);
